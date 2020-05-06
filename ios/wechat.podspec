@@ -17,7 +17,7 @@ Wechat SDK for Flutter App.
   s.static_framework = true
   
   s.dependency 'Flutter'
-  s.dependency 'WechatOpenSDK'
+  s.dependency 'WechatOpenSDK', "~> 1.7.9"
 
   s.frameworks = ["SystemConfiguration", "CoreTelephony"]
   s.libraries = ["z", "sqlite3.0", "c++"]
